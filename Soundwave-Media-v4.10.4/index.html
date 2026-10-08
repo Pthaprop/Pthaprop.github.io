@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Soundwave Media — independent music and visuals from South Carolina." />
+  <meta name="theme-color" content="#26330f" />
+  <title>Soundwave Media</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Soundwave Media home">
+      <span class="crest" aria-hidden="true"><img src="assets/swe-gold.png" alt=""></span>
+    </a>
+
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">MENU</button>
+    <nav id="site-nav" class="nav" aria-label="Primary navigation">
+      <a href="#home">Home</a>
+      <a href="#artists">Collective</a>
+      <a href="#releases">Releases</a>
+      <a href="#visuals">Media</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero shell">
+      <div class="hero-copy reveal">
+        <h1>SOUND<br>WAVE.</h1>
+        <p class="intro">We Are Soundwave</p>
+        <a class="round-link" href="#releases" aria-label="Go to releases">↓</a>
+      </div>
+      <div class="hero-mark-wrap reveal" aria-hidden="true"><div class="pin-crest"><img src="assets/swe-gold.png" alt=""></div></div>
+    </section>
+
+    <section id="artists" class="section shell">
+      <div class="section-head reveal">
+        <p class="kicker">01 / COLLECTIVE</p>
+        <h2>THE ROSTER</h2>
+      </div>
+
+      <div class="artist-list">
+        <button class="artist-row artist-choice-trigger reveal" type="button" aria-label="Open PTHAPROPHET links" aria-haspopup="dialog">
+          <div><span class="artist-index">01</span><h3>PTHAPROPHET</h3></div>
+          <div class="artist-copy"><p>Rapper · songwriter · producer · engineer</p><small>Producing and engineering for a little over three years; writing, playing instruments, and making music for the better part of a decade.</small></div>
+          <span>South Carolina +</span>
+        </button>
+        <div class="artist-preview-wrap reveal">
+          <button class="artist-row roster-preview-trigger" type="button" aria-expanded="false">
+            <div><span class="artist-index">02</span><h3>Flxwlessways</h3></div>
+            <p>Rapper · singer-songwriter</p><span>South Carolina +</span>
+          </button>
+          <div class="roster-spotify-preview" hidden>
+            <iframe src="https://open.spotify.com/embed/artist/4etcFdirKKn65l1cEtSsJb?utm_source=generator&amp;theme=0" title="Flxwlessways Spotify preview" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            <a class="platform-open" href="https://open.spotify.com/artist/4etcFdirKKn65l1cEtSsJb" target="_blank" rel="noopener">OPEN SPOTIFY ↗</a>
+          </div>
+        </div>
+        <div class="artist-preview-wrap reveal">
+          <button class="artist-row roster-preview-trigger" type="button" aria-expanded="false">
+            <div><span class="artist-index">03</span><h3>Bxnned0</h3></div>
+            <p>Rapper · singer-songwriter</p><span>South Carolina +</span>
+          </button>
+          <div class="roster-spotify-preview" hidden>
+            <iframe src="https://open.spotify.com/embed/artist/4Vt9VX8dD4xvOSG7bD5seR?utm_source=generator&amp;theme=0" title="Bxnned0 Spotify preview" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            <a class="platform-open" href="https://open.spotify.com/artist/4Vt9VX8dD4xvOSG7bD5seR" target="_blank" rel="noopener">OPEN SPOTIFY ↗</a>
+          </div>
+        </div>
+        <div class="artist-preview-wrap reveal">
+          <button class="artist-row roster-preview-trigger" type="button" aria-expanded="false">
+            <div><span class="artist-index">04</span><h3>TEE4</h3></div>
+            <p>Rapper · singer-songwriter · producer · engineer</p><span>South Carolina +</span>
+          </button>
+          <div class="roster-spotify-preview" hidden>
+            <iframe src="https://open.spotify.com/embed/artist/1QyP6iYvveoFjiIqfogmAI?utm_source=generator&amp;theme=0" title="TEE4 Spotify preview" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            <a class="platform-open" href="https://open.spotify.com/artist/1QyP6iYvveoFjiIqfogmAI" target="_blank" rel="noopener">OPEN SPOTIFY ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="releases" class="section releases-section">
+      <div class="shell">
+        <div class="section-head release-heading reveal">
+          <div>
+            <p class="kicker">02 / RELEASES</p>
+            <h2>IN ROTATION</h2>
+          </div>
+          <div class="carousel-controls" aria-label="Release controls">
+            <button id="release-prev" type="button" aria-label="Previous release">←</button>
+            <span id="release-count">01 / 03</span>
+            <button id="release-next" type="button" aria-label="Next release">→</button>
+          </div>
+        </div>
+
+        <div class="release-stage reveal">
+          <a id="release-link" class="release-art" href="#" target="_blank" rel="noopener" aria-label="Open release">
+            <img id="release-image" alt="" hidden>
+            <div id="release-placeholder" class="cover-placeholder">
+              <span class="mini-crest"></span>
+              <small>ADD COVER ART</small>
+            </div>
+          </a>
+          <div class="release-info">
+            <p id="release-type" class="kicker">SINGLE</p>
+            <h3 id="release-title">APARTHEID</h3>
+            <p id="release-artist">P Tha Prophet</p>
+            <p id="release-date" class="release-date">OUT NOW</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="visuals" class="section shell">
+      <div class="section-head reveal">
+        <p class="kicker">03 / MEDIA</p>
+        <h2>IN THE FRAME.</h2>
+      </div>
+      <div class="visual-stage reveal">
+        <div class="visual-media responsive-video">
+          <iframe src="https://drive.google.com/file/d/1YfMeUX78__m8q60Hs1InGqtYyor0v32V/preview" title="HEAVEN N’ HELL music video" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div>
+        <div class="visual-meta">
+          <div><p class="kicker">FEATURED / MUSIC VIDEO</p><h3>HEAVEN N’ HELL</h3></div>
+          <a class="external-link" href="https://youtu.be/8j-1wApWSqI?is=1I09kMIQ-aPRlbIt" target="_blank" rel="noopener">SOUNDWAVE YOUTUBE ↗</a>
+        </div>
+      </div>
+      <div class="interview-card reveal">
+        <div><p class="kicker">IN CONVERSATION / INTERVIEW</p><h3>I Listen To Everything</h3><p>Episode 2 · PTHAPROPHET</p></div>
+        <div class="podcast-player-wrap"><iframe title="I Listen To Everything Episode 2 — PTHAPROPHET podcast player" loading="lazy" scrolling="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fon.soundcloud.com%2F6Wel81nV7zXQCyIgqJ&amp;color=%23e5d52d&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;visual=false"></iframe><a class="platform-open" href="https://on.soundcloud.com/6Wel81nV7zXQCyIgqJ" target="_blank" rel="noopener">OPEN ON SOUNDCLOUD ↗</a></div>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="shell about-grid reveal">
+        <div class="about-image-slot"><img src="assets/about-symbol.png" alt="Soundwave Media symbol artwork"></div>
+        <div>
+          <p class="kicker">04 / ABOUT</p>
+          <h2>SOUNDWAVE MEDIA.</h2>
+          <p class="about-copy">South Carolina-based independent collective.</p>
+          <a class="social-pill" href="https://www.tiktok.com/@soundwaveswe" target="_blank" rel="noopener">
+            <img src="assets/soundwave-pfp.png" alt=""><span><small>TIKTOK</small>@soundwaveswe</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section shell contact-section reveal">
+      <p class="kicker">05 / CONTACT</p>
+      <a class="contact-email" href="mailto:geeeepubl@gmail.com">geeeepubl@gmail.com ↗</a>
+    </section>
+  </main>
+
+  <footer class="footer shell">
+    <span class="footer-brand"><span class="footer-crest" aria-hidden="true"><img src="assets/swe-gold.png" alt=""></span>© <span id="year"></span> SOUNDWAVE MEDIA</span>
+    <span>SOUTH CAROLINA</span>
+  </footer>
+
+  <div class="artist-link-overlay" id="ptha-links" role="dialog" aria-modal="true" aria-labelledby="ptha-link-title" hidden>
+    <button class="artist-overlay-backdrop" type="button" aria-label="Close PTHAPROPHET links"></button>
+    <div class="artist-link-panel">
+      <div class="artist-link-panel-head">
+        <div><p class="kicker">PTHAPROPHET / LINKS</p><h2 id="ptha-link-title">CHOOSE A PATHWAY.</h2></div>
+        <button class="artist-link-close" type="button" aria-label="Close">×</button>
+      </div>
+      <div class="pathway-previews pathway-three">
+        <section class="platform-window" aria-label="Spotify catalog preview">
+          <div class="window-bar"><span class="window-dots" aria-hidden="true">● ● ●</span><span>open.spotify.com / PTHAPROPHET</span></div>
+          <iframe class="spotify-catalog" data-src="https://open.spotify.com/embed/artist/51qRd3WA7lTg0xoU8JZPvN?utm_source=generator&amp;theme=0" title="PTHAPROPHET Spotify catalog" width="100%" height="352" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          <a class="platform-open" href="https://open.spotify.com/artist/51qRd3WA7lTg0xoU8JZPvN" target="_blank" rel="noopener">OPEN SPOTIFY ↗</a>
+        </section>
+        <section class="platform-window social-profile-window" aria-label="Instagram profile preview">
+          <div class="window-bar"><span class="window-dots" aria-hidden="true">● ● ●</span><span>instagram.com / p_thaprophet</span></div>
+          <a class="profile-preview-clean" href="https://www.instagram.com/p_thaprophet/" target="_blank" rel="noopener">
+            <img class="actual-pfp" src="assets/pthaprophet-pfp.png" alt="PTHAPROPHET profile photo">
+            <h3>@p_thaprophet</h3><p>PTHAPROPHET</p><small>Rapper · songwriter · producer · engineer</small>
+            <span class="profile-service">INSTAGRAM</span>
+          </a>
+          <a class="platform-open" href="https://www.instagram.com/p_thaprophet/" target="_blank" rel="noopener">OPEN INSTAGRAM ↗</a>
+        </section>
+        <section class="platform-window social-profile-window" aria-label="TikTok profile preview">
+          <div class="window-bar"><span class="window-dots" aria-hidden="true">● ● ●</span><span>tiktok.com / @pthaprophet</span></div>
+          <a class="profile-preview-clean" href="https://www.tiktok.com/@pthaprophet" target="_blank" rel="noopener">
+            <span class="tiktok-profile-avatar" aria-hidden="true">P</span>
+            <h3>@pthaprophet</h3><p>PTHAPROPHET</p><small>Visit the official TikTok profile for current videos and profile photo.</small>
+            <span class="profile-service">TIKTOK</span>
+          </a>
+          <a class="platform-open" href="https://www.tiktok.com/@pthaprophet" target="_blank" rel="noopener">OPEN TIKTOK ↗</a>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
